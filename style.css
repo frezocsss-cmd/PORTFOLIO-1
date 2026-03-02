@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+header {
+  height: 385px;
+  background-image: url(images/pult.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 25px;
+  align-items: center;
+}
+.daun-1 {
+  display: flex;
+  gap: 40px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  align-items: center;
+}
+.nogron:active{
+    color: #76b900;
+}
+input {
+  width: 300px;
+  padding: 14px;
+  height: 50px;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  top: 42px;
+  right: 130px;
+  color: black;
+}
+.fuck {
+  h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    margin-top: 5px;
+  }
+}
+.btn {
+  background-color: #76b900;
+  padding: 18px 20px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+  border: none;
+  margin-top: 90px;
+  border-radius: 15px;
+}
+.btn:active{
+    background-color: black;
+    color: #76b900;
+}
+.noxot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.lox {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.uts {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.box {
+  width: 290px;
+  height: 302px;
+  color: white;
+  transition: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+  padding-bottom: 20px;
+  h2 {
+    width: 178px;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+  }
+  img {
+    width: 290px;
+    height: 163px;
+  }
+}
+.box:hover {
+  box-shadow: 0px 17px 27px -4px #00000040;
+  scale: 1.2;
+}
+.fa-chevron-right {
+  color: #76b900;
+}
+.son {
+  display: flex;
+  gap: 13px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-left: 96px;
+  margin-top: 40px;
+  color: black;
+}
+.lox-2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.altair {
+  margin-top: 80px;
+}
+.mom {
+  display: flex;
+  gap: 40px;
+  img {
+    width: 704px;
+    height: 300px;
+  }
+}
+.sister-2 {
+  h2 {
+    width: 416px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #67b900;
+  }
+  p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 399px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+}
+.cench {
+  background-color: #76b900;
+  border: none;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 20px 32px;
+  border-radius: 15px;
+}
+.cench:active{
+    background-color: black;
+    color: #76b900;
+}
+footer {
+  width: 1521px;
+  height: 211px;
+  padding: 100px 25px;
+  margin-top: 10px;
+}
+.billy {
+  display: flex;
+  justify-content: space-between;
+}
+.nym {
+  font-weight: 800;
+  font-style: Extra Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #666666;
+  img {
+    width: 99px;
+    height: 30px;
+  }
+}
